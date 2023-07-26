@@ -12,3 +12,58 @@ header{
     justify-content: center;
     align-items: center;
 }
+
+.links{
+    width: 1250px;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link{
+    font-size: 19px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.g1{
+    color: #C3170C;
+}
+
+.oglobo{
+    color: #1E4B9B;
+}
+
+.valor{
+    color: #006766;
+}
+
+.ge{
+    color: #07AA47;
+}
+
+.cartola{
+    color: #E3662B;
+}
+
+.globoplay{
+    color: #FB0735;
+}
+
+.dropz{
+    color: #FF75BB;
+}
+
+.gshow{
+    color: #EC7D00;
+}
+
+.quem{
+    color: #323333;
+}
+
+.receitas{
+    color: #A81D83;
+}
