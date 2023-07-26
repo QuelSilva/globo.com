@@ -1,5 +1,14 @@
 body{
     font-family: 'Encode Sans', sans-serif;
-    text-align: center;
-    background-color: aqua;
+}
+
+header{
+
+    width: 1250px;
+    height: 80px;
+    margin: auto;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
