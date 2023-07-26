@@ -1,7 +1,7 @@
 body{
     font-family: 'Encode Sans', sans-serif;
 }
-
+/*cabeçalho*/
 header{
 
     width: 1250px;
@@ -12,7 +12,7 @@ header{
     justify-content: center;
     align-items: center;
 }
-
+/*menu de links*/
 .links{
     width: 1250px;
     height: 80px;
@@ -66,4 +66,31 @@ header{
 
 .receitas{
     color: #A81D83;
+}
+
+/*guarda o conteudo da nossa página*/
+.conteudo{
+    width: 1250px;
+    height: 1080px;
+    margin: auto;
+}
+
+.materiaDaEsquerda{
+    width: 50%;
+    height: 1080px;
+}
+
+.materiaPrincipal{
+    color: #C4160C;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 67px;
+    margin-bottom: 29px
+}
+
+.materiaSecundaria{
+    color: #303134;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 7px
 }
