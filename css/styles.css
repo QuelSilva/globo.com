@@ -25,6 +25,9 @@ header{
 .link{
     font-size: 19px;
     font-weight: 700;
+}
+
+a:link {
     text-decoration: none;
 }
 
@@ -69,7 +72,7 @@ header{
 }
 
 /*guarda o conteudo da nossa página*/
-.conteudo{
+.conteiner{
     width: 1250px;
     height: 1080px;
     margin: auto;
@@ -93,4 +96,44 @@ header{
     font-size: 18px;
     font-weight: 500;
     margin-top: 7px
+}
+
+.noticias{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 29px;
+}
+
+.guardaNoticia{
+    width: 193px;
+}
+
+.imagemEsquerda{
+    width:  193px;
+    height: 118px;
+    border-radius: 12px;
+}
+
+h1{
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 11px;
+    margin-bottom: 6px;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: 700;
+    color: #2F3134;
+    margin-bottom: 6px;
+}
+
+h3{
+    font-size: 14px;
+    font-weight: 400px;
+    color: #2F3134;
+}
+
+.titulo1{
+    color: #C4170C;
 }
