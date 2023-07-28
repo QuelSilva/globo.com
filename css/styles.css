@@ -75,12 +75,12 @@ a:link {
 .conteiner{
     width: 1250px;
     height: 1080px;
+    display: flex;
     margin: auto;
 }
 
 .materiaDaEsquerda{
     width: 50%;
-    height: 1080px;
 }
 
 .materiaPrincipal{
@@ -136,4 +136,30 @@ h3{
 
 .titulo1{
     color: #C4170C;
+}
+
+.titulo2{
+    color: #16AE54;
+}
+
+.materiaDaDireita{
+    width: 50%;
+    height: 1080px;
+    /*display: flex;
+    justify-content: space-around;
+    background-color: lightblue;*/
+}
+
+.guardaNoticiaDireita{
+    width: 240px;
+}
+
+.separador{
+    margin: 36px 0px;
+}
+
+.imagemDireita{
+    width: 240px;
+    height: 128px;
+    border-radius: 12px;
 }
