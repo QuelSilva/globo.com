@@ -1,5 +1,6 @@
 body{
     font-family: 'Encode Sans', sans-serif;
+
 }
 /*cabeçalho*/
 header{
@@ -7,10 +8,22 @@ header{
     width: 1250px;
     height: 80px;
     margin: auto;
-    background-color: #FFFFFF;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+}
+
+button{
+    background-color: #03AEFC;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    position: absolute;
+    left: 10px;
+    top: 28px
 }
 
 .bordaHorizontal{
